@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import strawberry
 from strawberry.fastapi import GraphQLRouter
-from api.schemas.company import Company
+from schemas.company import Company
 import nest_asyncio
 nest_asyncio.apply()
 
