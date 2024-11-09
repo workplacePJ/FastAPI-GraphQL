@@ -1,5 +1,5 @@
 import strawberry
-from company import Company
+from .company import Company
 
 @strawberry.type
 class Query:
