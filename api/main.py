@@ -1,15 +1,9 @@
 from fastapi import FastAPI
 import strawberry
 from strawberry.fastapi import GraphQLRouter
+from api.schemas.company import Company
 import nest_asyncio
 nest_asyncio.apply()
-
-
-@strawberry.type
-class Company:
-    name: str
-    postalCode: str
-    address: str
 
 @strawberry.type
 class Query:
