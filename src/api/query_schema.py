@@ -1,5 +1,5 @@
 import strawberry
-from owner.types import Owner
+from owner.type import Owner
 
 @strawberry.type
 class Query:
