@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from router.router import graphql_app
+from router import graphql_app
 
 api = FastAPI()
 
