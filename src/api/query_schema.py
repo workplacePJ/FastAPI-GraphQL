@@ -1,10 +1,5 @@
 import strawberry
 
-#@strawberry.type
-#class Query:
-
-
-
 @strawberry.type
 class Owner:
     id: int
