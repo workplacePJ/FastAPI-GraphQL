@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-#from router import 
+from router import graphql_app
 
 api = FastAPI()
 
 if __name__ == '__main__':
-    api.include_router(aaaaaaaaaa, prefix = '/graphql')
+    api.include_router(graphql_app, prefix = '/graphql')
