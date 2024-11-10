@@ -2,12 +2,7 @@ import strawberry
 #from owner.type import Owner
 #from .owner.resolvers import owner_get
 
-@strawberry.type
-class Owner:
-    id: int
-    name: str
-    postalCode: str
-    address: str
+
 
 from strawberry.types import Info
 async def get_data__owner(info: Info, id: int) -> Owner:
