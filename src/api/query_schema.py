@@ -1,11 +1,5 @@
 import strawberry
-
-@strawberry.type
-class Owner:
-    id: int
-    name: str
-    postalCode: str
-    address: str
+from owner.types import Owner
 
 async def get_owner(self) -> Owner:
     return Owner(id = 1, name = '株式会社トータルメディエイト', postalCode = '1140034', address = '東京都北区上十条2-25-4')
