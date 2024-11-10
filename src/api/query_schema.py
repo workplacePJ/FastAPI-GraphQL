@@ -1,5 +1,5 @@
 import strawberry
-#from owner.type import Owner
+from owner.type import Owner
 #from .owner.resolvers import owner_get
 
 
