@@ -4,4 +4,4 @@ from owner.resolvers import owner
 
 @strawberry.type
 class Query:
-    owner: Owner = strawberry.field(resolver = owner)
+    owner_data: Owner = strawberry.field(resolver = owner)
