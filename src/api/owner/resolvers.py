@@ -1,6 +1,7 @@
 import strawberry
 from .type import Owner
 from strawberry.types import Info
+from datetime import datetime
 
 async def get_data__owner(info: Info, id: int) -> Owner:
     """Get owner by id"""
