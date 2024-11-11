@@ -14,5 +14,5 @@ class Owner:
     mail: str | None = Field(None, pattern = r'^[a-zA-Z0-9_+-]+(.[a-zA-Z0-9_+-]+)*@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$')
     #bankAccount: 
     remarks: str | None = None
-    creatrdAt: datetime
+    createdAt: datetime
     updatedAt: datetime
