@@ -1,5 +1,5 @@
 import strawberry
-from type import Owner
+from .type import Owner
 from strawberry.types import Info
 
 async def get_data__owner(info: Info, id: int) -> Owner:
