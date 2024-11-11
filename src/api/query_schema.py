@@ -6,4 +6,4 @@ from owner.resolvers import get_data__owner, get_data__owners
 class Query:
     """owner"""
     owner: Owner = strawberry.field(resolver = get_data__owner)
-    owners: Owners = strawberry.field(resolver = get_data__owners)
+    owners: list[Owner] = strawberry.field(resolver = get_data__owners)
