@@ -12,11 +12,8 @@ async def get_data__owner(info: Info, id: int) -> Owner:
         name_kana = 'スズキイチロウ',
         postal_code = '1142345',
         address = '東京都板橋区赤坂1-32-12',
-        address_building = None,
-        address_room_number_or_floor = None,
         tel = '09011111111',
         mail = 'info@jsx.com',
-        remarks = None,
         created_at = datetime.now(),
         updated_at = datetime.now()
     )
@@ -32,11 +29,8 @@ async def get_data__owners(info: Info) -> list[Owner]:
             name_kana = 'スズキイチロウ',
             postal_code = '1142345',
             address = '東京都板橋区赤坂1-32-12',
-            address_building = None,
-            address_room_number_or_floor = None,
             tel = '09011111111',
             mail = 'info@jsx.com',
-            remarks = None,
             created_at = datetime.now(),
             updated_at = datetime.now()
         ), 
@@ -46,11 +40,10 @@ async def get_data__owners(info: Info) -> list[Owner]:
             name_kana = 'スズキジロウ',
             postal_code = '1142345',
             address = '東京都板橋区赤坂1-32-12',
-            address_building = None,
-            address_room_number_or_floor = None,
+            address_building = あいうえおビル,
+            address_room_number_or_floor = 1階,
             tel = '09022222222',
             mail = 'info@jsx2.com',
-            remarks = None,
             created_at = datetime.now(),
             updated_at = datetime.now()
         )
