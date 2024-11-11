@@ -1,5 +1,6 @@
 import strawberry
 from datetime import datetime
+from strawberry import field
 
 @strawberry.type
 class Owner:
